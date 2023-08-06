@@ -55,10 +55,92 @@ body, html {
 
 .card-body div{
     margin-top: 18px;
-    color: rgb(94, 166, 153);
+    color: rgb(255, 255, 255);
 }
+
 
 .header{
     margin: 55px 45px;
+    
+}
+
+.form {
+    background-color: rgb(6, 6, 6);
+    box-shadow: 0 10px 20px -2px rgb(22, 22, 22);
+    margin-left: 45px;
+    display: flex;
+    flex-flow: row wrap;
+    gap: 20px;
+    padding-bottom: 20px;
+}
+
+
+.form-title{
+    margin-right: 500px;
+}
+
+.input{
+    display: flex;
+    flex-flow: column wrap;
+    text-transform: uppercase;
+    gap: 5px;
+    width: 40%;
+}
+
+label{
+    font-size: 11px;
+}
+
+input{
+    background-color: rgb(2, 2, 2);
+    border: 1px solid rgb(77, 77, 77);
+    border-radius: 3px;
+    color: rgba(240, 248, 255, 0.657);
+}
+
+input:focus{
+    outline: none;
+    border: 2px solid greenyellow;
 }
   
+
+button{
+    background-color: rgba(0, 0, 0, 0);
+    color: greenyellow;
+    font-weight: 700;
+    font-size: 1.2em;
+    border: 2px solid greenyellow;
+    border-radius: 5px;
+    padding: 10px 40px;
+    margin: 40px 0;
+    margin-left: 45px;
+}
+
+button:hover{
+    background-color: greenyellow;
+    color: black;
+    
+}
+
+.log-in{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    margin-left: 45px;
+}
+
+a{
+    text-decoration: none;
+    color: greenyellow;
+    font-weight: 700;
+}
+
+a:hover{
+    color: white;
+}
+
+input:invalid{
+    outline: none;
+    border: 2px solid rgb(244, 53, 53);
+}
+
