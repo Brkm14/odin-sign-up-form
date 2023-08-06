@@ -1,0 +1,64 @@
+@font-face {
+    font-family: gym-font;
+    src: url(font.ttf);
+  }
+
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    overflow: hidden;
+    background: black;
+    color: white;
+    font-family: gym-font;
+    font-size: 20px;
+}
+
+.container{
+    display: flex;
+    height: 100%;
+}
+
+
+
+.right-side{
+    display: flex;
+    flex-direction: column;
+    width: 61%;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: rgba(240, 248, 255, 0.657);
+}
+
+.card-container{
+    position: relative;
+    width: 39%;
+}
+
+.card-image {
+    height: 100%;
+    width: 100%;
+    position: absolute;
+}
+
+.card-body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    width: 100%;
+    background: rgba(0, 0, 0, 0.6);
+    color: white;
+    top: 55%;
+    text-align: center;
+    font-size: 50px;
+  }
+
+.card-body div{
+    margin-top: 18px;
+    color: rgb(94, 166, 153);
+}
+
+.header{
+    margin: 55px 45px;
+}
+  
