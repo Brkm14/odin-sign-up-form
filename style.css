@@ -144,3 +144,7 @@ input:invalid{
     border: 2px solid rgb(244, 53, 53);
 }
 
+.password-error{
+    font-size: 11px;
+    color: rgb(244, 53, 53);
+}
